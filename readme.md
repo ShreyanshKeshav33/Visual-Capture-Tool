@@ -1,5 +1,9 @@
-Visual Capture Tool
-Welcome to the Visual Capture Tool! This tool allows you to capture and manage media content seamlessly. Below, you'll find details about the key files in this project:
+
+# Visual Capture Tool
+
+Link:https://visual-capture-tool.netlify.app
+
+Welcome to the Visual Capture Tool! This tool allows you to capture and manage media content seamlessly. Below, you'll find details about the key files in this project.
 
 Files
 1. db.js
@@ -23,20 +27,27 @@ JavaScript code responsible for handling the recording, capturing, and filtering
 7. style.css
 CSS styles for the main interface, including video display, action buttons, timers, filters, and the gallery icon.
 
-Getting Started
-Clone the repository: git clone [repository_link]
+## Getting Started
+Clone the repository: 
+
+```bash
+  git clone [your forked_repo link]
+```
+
 Open index.html in your browser.
+
 Use the provided buttons to record videos, capture images, and apply filters.
+
 Click on the gallery icon to view captured media.
 Live Demo
+
 Check out the live demo of the Visual Capture Tool deployed on Netlify.
 
-Contributing
-If you'd like to contribute to the project, please fork the repository and submit a pull request. Feel free to open issues for any suggestions or bug reports.
 
-License
-This project is licensed under the MIT License.
+## Deployment
 
-Acknowledgments
-Special thanks to the shortid library for providing unique IDs.
-This project was deployed using Netlify.
+To deploy this project run
+
+```bash
+  npm run start
+```
